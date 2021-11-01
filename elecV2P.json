@@ -7,7 +7,6 @@
 	{"name":"御果园","type":"cron","time":"5 10 * * *","job":{"type":"runjs","target":"https://raw.fastgit.org/byxiaopeng/myscripts/main/ygyapp.js"},"running":true},
 	{"name":"溆锋","type":"cron","time":"10 10 * * *","job":{"type":"runjs","target":"https://raw.fastgit.org/byxiaopeng/myscripts/main/xfapp.js"},"running":true},
 	{"name":"博越","type":"cron","time":"15 10 * * *","job":{"type":"runjs","target":"https://raw.fastgit.org/byxiaopeng/myscripts/main/byapp.js"},"running":true},
-	{"name":"巨利广信","type":"cron","time":"20 10 * * *","job":{"type":"runjs","target":"https://raw.fastgit.org/byxiaopeng/myscripts/main/juliapp.js"},"running":true},
 	{"name":"鑫广","type":"cron","time":"25 10 * * *","job":{"type":"runjs","target":"https://raw.fastgit.org/byxiaopeng/myscripts/main/xgapp.js"},"running":true},
 	{"name":"创视节点","type":"cron","time":"30 10 * * *","job":{"type":"runjs","target":"https://raw.fastgit.org/byxiaopeng/myscripts/main/csjd.js"},"running":true}
 	]
