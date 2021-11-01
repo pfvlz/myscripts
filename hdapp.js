@@ -3,8 +3,8 @@
 注册地址：https://ls.hzyuechuang.com/#/register
 不含邀请链接
 需要实名认证后绑定支付宝
-xgPhone:手机号#密码
-export xgPhone='手机号#密码'
+hdPhone:手机号#密码
+export hdPhone='手机号#密码'
 boxjs地址:https://raw.fastgit.org/byxiaopeng/myscripts/main/byxiaopeng.boxjs.json
 */
 // [task_local]
