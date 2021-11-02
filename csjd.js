@@ -245,18 +245,17 @@ function receiveIncome(timeout = 0) {
       url: `${host}/api/app/api/income/receiveIncome`,
       headers: {
         "Authorization": token,
-        "Connection":"keep-alive",
-        "Content-Type":"application/x-www-form-urlencoded;charset=UTF-8",
-        "User-Agent":"Mozilla/5.0 (Linux; Android 9; Nokia X7 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/96.0.4664.27 Mobile Safari/537.36 uni-app Html5Plus/1.0 (Immersed/32.761906)",
-    },
+        "Connection": "keep-alive",
+        "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 9; Nokia X7 Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/96.0.4664.27 Mobile Safari/537.36 uni-app Html5Plus/1.0 (Immersed/32.761906)",
+      },
     }
     $.post(url, async (err, resp, data) => {
       try {
         result = JSON.parse(data)
         if (result.code == 0) {
-          $.log(`【领取分成成功】`)
-          $.message += `【领取分成成功】`
-          await $.wait(5000)
+          $.log(`\n【领取分成成功】`)
+          $.message += `\n【领取分成成功】`
         } else {
           console.log(`\n【领取分成失败】：${result.msg}`)
           $.message += `\n【领取分成失败】：${result.msg}`
