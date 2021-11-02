@@ -78,7 +78,9 @@ $.message = ''
 async function byxiaopeng() {
   await dutang() 
   await $.wait(2000)
-  await login() 
+  await login()
+  await $.wait(2000)
+  await getBonusMoney()
   message() //通知
 }
 
@@ -178,7 +180,36 @@ function sign(timeout = 0) {
   })
 }
 
-
+//分红
+function getBonusMoney(timeout = 0) {
+  return new Promise((resolve) => {
+    let url = {
+      url: `${host}/home/user/getBonusMoney`,
+      headers: {
+        'Content-Type': 'application/json;charset=utf-8',
+        'TC-Token': token,
+        'TC-Id' :tc,
+        'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148'
+      },
+    }
+    $.post(url, async (err, resp, data) => {
+      try {
+        result = JSON.parse(data)
+        if (result.code == 1) {
+          $.log(`\n【每日分红】：${result.msg}`)
+          $.message += `\n【每日分红】：${result.msg}`
+        } else {
+          $.log(`\n【每日分红】：${result.msg}`)
+          $.message += `\n【每日分红】：${result.msg}`
+        }
+      } catch (e) {
+        $.logErr(e, resp);
+      } finally {
+        resolve()
+      }
+    }, timeout)
+  })
+}
 
 
 function RT(X, Y) {
