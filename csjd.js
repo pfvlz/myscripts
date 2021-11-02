@@ -329,7 +329,7 @@ function param(timeout = 0) {
           $.message += `\n【账户累计提现】：${result.data.totalRecharge}`
           $.message += `\n【我的余额】：${result.data.yue}`
           if (result.data.yue >= 10) {
-            $.message += `\n【提现判断】：账户余额大于10元执行提现`
+            console.log( `\n【提现判断】：账户余额大于10元执行提现`)
             $.message += `\n【提现判断】: 账户余额大于10元执行提现`
             RMB = Math.trunc(result.data.yue)
             $.log(`\n【提现金额】：${RMB}元`)
