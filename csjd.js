@@ -1,3 +1,22 @@
+/*
+脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js
+项目注册地址:http://cs.clrcle.cn/api/webapp/register.html?code=ECY5A1
+可以0撸 可以投资  可以推广
+三种收益叠加
+每天看广告0撸三个节点
+一个节点等于一块钱
+每天分红节点的2%
+提现门槛：满10元即可提现
+注意： 
+创世节点2021年10月30日更新后必须激活后才能体现，余额互转(投资100即可赠送水杯)
+csjdPhone:手机号#密码
+export csjdPhone='手机号#密码'
+boxjs地址:https://raw.fastgit.org/byxiaopeng/myscripts/main/byxiaopeng.boxjs.json
+*/
+
+// [task_local]
+//#创视节点
+// 9 10 * * * https://raw.fastgit.org/byxiaopeng/myscripts/main/csjd.js, tag=创视节点, enabled=true
 const $ = new Env('创视节点APP');
 const notify = $.isNode() ? require('./sendNotify') : '';
 let status;
