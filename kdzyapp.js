@@ -132,8 +132,15 @@ function login(timeout = 0) {
           $.message += `\n【你的邀请码】：${result.data['invite_code']}`
           $.message += `\n【游戏余额】：${result.data['game_money']}`
           $.message += `\n【账户水晶】：${result.data.crystal}`
-          await $.wait(3000)
-          await sign()//签到
+          if (result.data['sign_days'] != 7) {
+            await $.wait(3000)
+            await sign()//签到
+          }
+          if (result.data.money >= 1) {
+            $.log(`\n账户余额大于1元执行提现`)
+            $.message += `n账户余额大于1元执行提现`
+            await withdrawal()
+          }
         } else {
           $.log(`\n请填写正确的手机号和密码`)
           $.message += `\n请填写正确的手机号和密码`
@@ -201,6 +208,39 @@ function getBonusMoney(timeout = 0) {
         } else {
           $.log(`\n【每日分红】：${result.msg}`)
           $.message += `\n【每日分红】：${result.msg}`
+        }
+      } catch (e) {
+        $.logErr(e, resp);
+      } finally {
+        resolve()
+      }
+    }, timeout)
+  })
+}
+
+
+//提现
+function withdrawal(timeout = 0) {
+  return new Promise((resolve) => {
+    let url = {
+      url: `${host}/home/user/withdrawal?type=1`,
+      headers: {
+        'Content-Type': 'application/json;charset=utf-8',
+        'TC-Token': token,
+        'TC-Id' :tc,
+        'user-agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148'
+      },
+      body : `withdrawalAmount=1`,
+    }
+    $.post(url, async (err, resp, data) => {
+      try {
+        result = JSON.parse(data)
+        if (result.code == 1) {
+          $.log(`\n【提现信息】：${result.msg}`)
+          $.message += `\n【提现信息】：${result.msg}`
+        } else {
+          $.log(`\n【提现信息】：${result.msg}`)
+          $.message += `\n【提现信息】：${result.msg}`
         }
       } catch (e) {
         $.logErr(e, resp);
