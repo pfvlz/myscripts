@@ -2,7 +2,7 @@
     "name": "byxiaopeng脚本订阅",
     "author": "小朋",
     "desc": "byxiaopeng脚本的定时任务",
-    "date": "2021-08-19 08:36:02",
+    "date": "2021-11-05 08:36:02",
     "list": [
 	{"name":"御果园","type":"cron","time":"5 10 * * *","job":{"type":"runjs","target":"https://raw.fastgit.org/byxiaopeng/myscripts/main/ygyapp.js"},"running":true},
 	{"name":"溆锋","type":"cron","time":"10 10 * * *","job":{"type":"runjs","target":"https://raw.fastgit.org/byxiaopeng/myscripts/main/xfapp.js"},"running":true},
