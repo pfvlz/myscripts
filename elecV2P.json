@@ -9,6 +9,7 @@
 	{"name":"博越","type":"cron","time":"15 10 * * *","job":{"type":"runjs","target":"https://raw.fastgit.org/byxiaopeng/myscripts/main/byapp.js"},"running":true},
 	{"name":"鑫广","type":"cron","time":"25 10 * * *","job":{"type":"runjs","target":"https://raw.fastgit.org/byxiaopeng/myscripts/main/xgapp.js"},"running":true},
 	{"name":"创视节点","type":"cron","time":"30 10 * * *","job":{"type":"runjs","target":"https://raw.fastgit.org/byxiaopeng/myscripts/main/csjd.js"},"running":true},
-	{"name":"鸿答","type":"cron","time":"35 10 * * *","job":{"type":"runjs","target":"https://raw.fastgit.org/byxiaopeng/myscripts/main/hdapp.js"},"running":true}    
+	{"name":"鸿答","type":"cron","time":"35 10 * * *","job":{"type":"runjs","target":"https://raw.fastgit.org/byxiaopeng/myscripts/main/hdapp.js"},"running":true},
+	{"name":"千熙","type":"cron","time":"40 10 * * *","job":{"type":"runjs","target":"https://raw.fastgit.org/byxiaopeng/myscripts/main/qxapp.js"},"running":true}  
 	]
 }
