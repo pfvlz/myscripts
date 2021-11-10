@@ -26,8 +26,15 @@
             "val": "",
             "type": "text",
             "desc": "手机账户#密码"
+        }, {
+            "id": "xfPhone",
+            "name": "溆锋APP账户密码3",
+            "val": "",
+            "type": "text",
+            "desc": "手机账户#密码"
         }],
         "icons": [
+            "https://www.wuhuoculture.com/favicon.ico",
             "https://www.wuhuoculture.com/favicon.ico",
             "https://www.wuhuoculture.com/favicon.ico"],
         "author": "@byxiaopeng",
