@@ -7,7 +7,7 @@
     "apps": [{
         "id": "xfapp",
         "name": "溆锋APP",
-        "keys": ["xfPhone","xfPhone2"],
+        "keys": ["xfPhone","xfPhone2","xfPhone3"],
         "settings": [{
             "id": "xfcount",
             "name": "账号个数",
@@ -27,7 +27,7 @@
             "type": "text",
             "desc": "手机账户#密码"
         }, {
-            "id": "xfPhone",
+            "id": "xfPhone3",
             "name": "溆锋APP账户密码3",
             "val": "",
             "type": "text",
