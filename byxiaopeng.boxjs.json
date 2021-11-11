@@ -43,7 +43,7 @@
     },{
         "id": "xgapp",
         "name": "鑫广APP",
-        "keys": ["xgPhone","xgPhone2"],
+        "keys": ["xgPhone","xgPhone2","xgPhone3","xgPhone4","xgPhone5","xgPhone6","xgPhone7","xgPhone8","xgPhone9","xgPhone10"],
         "settings": [{
             "id": "xgcount",
             "name": "账号个数",
