@@ -63,9 +63,73 @@
             "val": "",
             "type": "text",
             "desc": "手机账户#密码"
+			  }
+		, {
+            "id": "xgPhone3",
+            "name": "鑫广APP账户密码3",
+            "val": "",
+            "type": "text",
+            "desc": "手机账户#密码"
+			  }
+		, {
+            "id": "xgPhone4",
+            "name": "鑫广APP账户密码4",
+            "val": "",
+            "type": "text",
+            "desc": "手机账户#密码"
+			  }
+		, {
+            "id": "xgPhone5",
+            "name": "鑫广APP账户密码5",
+            "val": "",
+            "type": "text",
+            "desc": "手机账户#密码"
+			  }
+		, {
+            "id": "xgPhone6",
+            "name": "鑫广APP账户密码6",
+            "val": "",
+            "type": "text",
+            "desc": "手机账户#密码"
+			  }
+		, {
+            "id": "xgPhone7",
+            "name": "鑫广APP账户密码7",
+            "val": "",
+            "type": "text",
+            "desc": "手机账户#密码"
+			  }
+		, {
+            "id": "xgPhone8",
+            "name": "鑫广APP账户密码8",
+            "val": "",
+            "type": "text",
+            "desc": "手机账户#密码"
+			  }
+		, {
+            "id": "xgPhone9",
+            "name": "鑫广APP账户密码9",
+            "val": "",
+            "type": "text",
+            "desc": "手机账户#密码"
+			  }
+		, {
+            "id": "xgPhone10",
+            "name": "鑫广APP账户密码10",
+            "val": "",
+            "type": "text",
+            "desc": "手机账户#密码"
         }],
         "icons": [
             "https://web.yiqizhu888.com/favicon.ico",
+		            "https://web.yiqizhu888.com/favicon.ico",
+		            "https://web.yiqizhu888.com/favicon.ico",
+		            "https://web.yiqizhu888.com/favicon.ico",
+		            "https://web.yiqizhu888.com/favicon.ico",
+		            "https://web.yiqizhu888.com/favicon.ico",
+		            "https://web.yiqizhu888.com/favicon.ico",
+		            "https://web.yiqizhu888.com/favicon.ico",
+		            "https://web.yiqizhu888.com/favicon.ico",
             "https://web.yiqizhu888.com/favicon.ico"],
         "author": "@byxiaopeng",
         "repo": "https://github.com/byxiaopeng/myscripts",
