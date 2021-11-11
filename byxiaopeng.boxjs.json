@@ -270,6 +270,92 @@
         "repo": "https://github.com/byxiaopeng/myscripts",
         "script": "https://raw.fastgit.org/byxiaopeng/myscripts/main/byapp.js"
     },
+    {
+        "id": "shapp",
+        "name": "苏汇APP",
+        "keys": ["shPhone","shPhone2","shPhone3","shPhone4","shPhone5","shPhone6","shPhone7","shPhone8","shPhone9","shPhone10"],
+        "settings": [{
+            "id": "shcount",
+            "name": "账号个数",
+            "val": "1",
+            "type": "number",
+            "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+        }, {
+            "id": "shPhone",
+            "name": "苏汇APP账户密码1",
+            "val": "",
+            "type": "text",
+            "desc": "手机账户#密码"
+        }, {
+            "id": "shPhone2",
+            "name": "苏汇APP账户密码2",
+            "val": "",
+            "type": "text",
+            "desc": "手机账户#密码"
+        }, {
+            "id": "shPhone3",
+            "name": "苏汇APP账户密码3",
+            "val": "",
+            "type": "text",
+            "desc": "手机账户#密码"
+        }, {
+            "id": "shPhone4",
+            "name": "苏汇APP账户密码4",
+            "val": "",
+            "type": "text",
+            "desc": "手机账户#密码"
+        }, {
+            "id": "shPhone5",
+            "name": "苏汇APP账户密码5",
+            "val": "",
+            "type": "text",
+            "desc": "手机账户#密码"
+        }, {
+            "id": "shPhone6",
+            "name": "苏汇APP账户密码6",
+            "val": "",
+            "type": "text",
+            "desc": "手机账户#密码"
+        }, {
+            "id": "shPhone7",
+            "name": "苏汇APP账户密码7",
+            "val": "",
+            "type": "text",
+            "desc": "手机账户#密码"
+        }, {
+            "id": "shPhone8",
+            "name": "苏汇APP账户密码8",
+            "val": "",
+            "type": "text",
+            "desc": "手机账户#密码"
+        }, {
+            "id": "shPhone9",
+            "name": "苏汇APP账户密码9",
+            "val": "",
+            "type": "text",
+            "desc": "手机账户#密码"
+        }, {
+            "id": "shPhone10",
+            "name": "苏汇APP账户密码10",
+            "val": "",
+            "type": "text",
+            "desc": "手机账户#密码"		
+        }],
+        "icons": [
+            "https://xashangdian.com/favicon.ico",
+		            "https://xashangdian.com/favicon.ico",
+		            "https://xashangdian.com/favicon.ico",
+		            "https://xashangdian.com/favicon.ico",
+		            "https://xashangdian.com/favicon.ico",
+		            "https://xashangdian.com/favicon.ico",
+		            "https://xashangdian.com/favicon.ico",
+		            "https://xashangdian.com/favicon.ico",
+		            "https://xashangdian.com/favicon.ico",
+            "https://xashangdian.com/favicon.ico"],
+        "author": "@byxiaopeng",
+        "repo": "https://github.com/byxiaopeng/myscripts",
+        "script": "https://raw.fastgit.org/byxiaopeng/myscripts/main/shapp.js"
+    },
 	{
         "id": "ygyapp",
         "name": "御果园APP",
