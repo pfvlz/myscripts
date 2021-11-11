@@ -7,7 +7,7 @@
     "apps": [{
         "id": "xfapp",
         "name": "溆锋APP",
-        "keys": ["xfPhone","xfPhone2","xfPhone3"],
+        "keys": ["xfPhone","xfPhone2","xfPhone3","xfPhone4","xfPhone5","xfPhone6","xfPhone7","xfPhone8","xfPhone9","xfPhone10"],
         "settings": [{
             "id": "xfcount",
             "name": "账号个数",
@@ -32,9 +32,58 @@
             "val": "",
             "type": "text",
             "desc": "手机账户#密码"
+		        }, {
+            "id": "xfPhone4",
+            "name": "溆锋APP账户密码4",
+            "val": "",
+            "type": "text",
+            "desc": "手机账户#密码"
+	}, {
+            "id": "xfPhone5",
+            "name": "溆锋APP账户密码5",
+            "val": "",
+            "type": "text",
+            "desc": "手机账户#密码"
+	}, {
+            "id": "xfPhone6",
+            "name": "溆锋APP账户密码6",
+            "val": "",
+            "type": "text",
+            "desc": "手机账户#密码"
+	}, {
+            "id": "xfPhone7",
+            "name": "溆锋APP账户密码7",
+            "val": "",
+            "type": "text",
+            "desc": "手机账户#密码"
+	}, {
+            "id": "xfPhone8",
+            "name": "溆锋APP账户密码8",
+            "val": "",
+            "type": "text",
+            "desc": "手机账户#密码"
+	}, {
+            "id": "xfPhone9",
+            "name": "溆锋APP账户密码9",
+            "val": "",
+            "type": "text",
+            "desc": "手机账户#密码"
+	}, {
+            "id": "xfPhone10",
+            "name": "溆锋APP账户密码10",
+            "val": "",
+            "type": "text",
+            "desc": "手机账户#密码"
         }],
         "icons": [
             "https://www.wuhuoculture.com/favicon.ico",
+		            "https://www.wuhuoculture.com/favicon.ico",
+		            "https://www.wuhuoculture.com/favicon.ico",
+		            "https://www.wuhuoculture.com/favicon.ico",
+		            "https://www.wuhuoculture.com/favicon.ico",
+		            "https://www.wuhuoculture.com/favicon.ico",
+		            "https://www.wuhuoculture.com/favicon.ico",
+		            "https://www.wuhuoculture.com/favicon.ico",
             "https://www.wuhuoculture.com/favicon.ico",
             "https://www.wuhuoculture.com/favicon.ico"],
         "author": "@byxiaopeng",
@@ -138,7 +187,7 @@
 	{
         "id": "byapp",
         "name": "博越APP",
-        "keys": ["byPhone","byPhone2"],
+        "keys": ["byPhone","byPhone2","byPhone3","byPhone4","byPhone5","byPhone6","byPhone7","byPhone8","byPhone9","byPhone10"],
         "settings": [{
             "id": "bycount",
             "name": "账号个数",
@@ -151,16 +200,71 @@
             "val": "",
             "type": "text",
             "desc": "手机账户#密码"
-        }
-		, {
+        }, {
             "id": "byPhone2",
             "name": "博越APP账户密码2",
             "val": "",
             "type": "text",
             "desc": "手机账户#密码"
-        }],
+        }, {
+            "id": "byPhone3",
+            "name": "博越APP账户密码3",
+            "val": "",
+            "type": "text",
+            "desc": "手机账户#密码"
+        }, {
+            "id": "byPhone4",
+            "name": "博越APP账户密码4",
+            "val": "",
+            "type": "text",
+            "desc": "手机账户#密码"		
+        }, {
+            "id": "byPhone5",
+            "name": "博越APP账户密码5",
+            "val": "",
+            "type": "text",
+            "desc": "手机账户#密码"
+        }, {
+            "id": "byPhone6",
+            "name": "博越APP账户密码6",
+            "val": "",
+            "type": "text",
+            "desc": "手机账户#密码"
+        }, {
+            "id": "byPhone7",
+            "name": "博越APP账户密码7",
+            "val": "",
+            "type": "text",
+            "desc": "手机账户#密码"
+        }, {
+            "id": "byPhone8",
+            "name": "博越APP账户密码8",
+            "val": "",
+            "type": "text",
+            "desc": "手机账户#密码"
+        }, {
+            "id": "byPhone9",
+            "name": "博越APP账户密码9",
+            "val": "",
+            "type": "text",
+            "desc": "手机账户#密码"
+        }, {
+            "id": "byPhone10",
+            "name": "博越APP账户密码10",
+            "val": "",
+            "type": "text",
+            "desc": "手机账户#密码"		
+	}],
         "icons": [
             "https://www.wuhuoculture.com/favicon.ico",
+		            "https://www.wuhuoculture.com/favicon.ico",
+		            "https://www.wuhuoculture.com/favicon.ico",
+		            "https://www.wuhuoculture.com/favicon.ico",
+		            "https://www.wuhuoculture.com/favicon.ico",
+		            "https://www.wuhuoculture.com/favicon.ico",
+		            "https://www.wuhuoculture.com/favicon.ico",
+		            "https://www.wuhuoculture.com/favicon.ico",
+		            "https://www.wuhuoculture.com/favicon.ico",
             "https://www.wuhuoculture.com/favicon.ico"],
         "author": "@byxiaopeng",
         "repo": "https://github.com/byxiaopeng/myscripts",
